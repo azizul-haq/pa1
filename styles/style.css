@@ -165,3 +165,30 @@ section{
     border-radius: 16px;
 }
 /* Inspiration Section End */
+
+/* Target Section Start*/
+#target .row{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.target_item{
+    width:365px;
+    height: 300px;
+    padding: 30px;
+    margin-top:50px;
+    border-radius: 16px;
+}
+.target_item img{
+    margin-bottom: 20px;
+}
+#target .item_1{
+    background: rgba(255, 76, 30, 0.05);
+}
+#target .item_2{
+    background: rgba(0, 76, 232, 0.05);
+}
+#target .item_3{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* Target Section End*/
